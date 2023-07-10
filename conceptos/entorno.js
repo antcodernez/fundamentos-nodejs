@@ -4,5 +4,4 @@ let web = process.env.WEB || "No hay web :/";
 
 console.log(`Hola ${saludo}`);  
 console.log(`Mi web es:  ${web}`);  
-
 //Las variables de entorno se ponen en mayusculas y si es una palabra compuesta van con guion bajo ejemplos: NOMBRE, MI_NOMBRE.
