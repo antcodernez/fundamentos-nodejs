@@ -19,6 +19,6 @@ hola("Jesus", () =>
     {
         bye("Jesus", () => 
             {
-                setTimeout(() => console.log("Termiando proceso"), 2000);
+                setTimeout(() => console.log("Termiando proceso"), 1000);
             });
     });
