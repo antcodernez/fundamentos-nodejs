@@ -35,15 +35,14 @@ function conversation(nombre, veces, callback) //Parametros de mi funcion
                 bye(nombre, callback);
             }
     }
+
 // --
 // Codigo mas perro usando recursividad
 console.log("Iniciando proceso");
 hola("Jesus", () =>
     {
-        conversation("Jesus", 3, () => console.log("proceso terminado"));
+        conversation("Jesus", 6, () => console.log("proceso terminado"));
     });
-
-
 
 
 //Callback hell
