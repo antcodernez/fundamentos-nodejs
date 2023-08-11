@@ -34,7 +34,7 @@ const {exec, spawn} = require("child_process"); //Util para acceder a más de un
 //     console.log(stdout);
 // });
 
-// exec("rm -r xd", (err, stdout, stdin) =>
+// exec("rm -r xd", (err, stdout, stdin) =>     
 //     {
 //         if(err)
 //             {
