@@ -13,7 +13,7 @@ function router(req, res)
 
         //Contesta a la peticion
         // res.write("Hola ya se usar HTTP de NODE.JS");
-        
+            
         // res.writeHead("SOy un texto del head, se pueden ver en network en devtools")
 
         switch(req.url)
@@ -32,7 +32,6 @@ function router(req, res)
         // res.writeHead(201, { "content-Type": "text/plane"});
 
         // res.end(); //Este codigo termina la peticion
-        
     }
 
-console.log("Escuchando http en el puerto 3000"); 
+console.log("Escuchando http en el puerto 3000");
