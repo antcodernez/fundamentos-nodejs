@@ -1,0 +1,12 @@
+{
+  "name": "modulo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "esindex.js",
+  "scripts": {
+    "perro": "nodemon esindex.js" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
