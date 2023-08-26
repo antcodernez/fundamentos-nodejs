@@ -12,18 +12,18 @@ function router(req, res)
         console.log(req.url);
 
         //Contesta a la peticion
-        // res.write("Hola ya se usar HTTP de NODE.JS");
+        //res.write("Hola ya se usar HTTP de NODE.JS");
             
         // res.writeHead("SOy un texto del head, se pueden ver en network en devtools")
 
         switch(req.url)
             {
                 case '/hola':
-                        res.write("Hola que tal");
+                        res.write("Hola perro");
                         res.end();
                 break;
                 default:
-                    res.write("No se que quieres cabron");
+                    res.write(`No se que quieres cabron`);
                     res.end();
                 break;
             } //Primer router para un backend
