@@ -1,0 +1,19 @@
+{
+  "name": "desktop-apps",
+  "version": "1.0.0",
+  "description": "This is my first app on desktop using electron",
+  "main": "index.js",
+  "scripts": {
+    "phoenix": "rm -f package-lock.json && rm -rf ./node_modules && npm install --no-fund --no-audit",
+    "start": "electron .",
+    "install-wsl": "npm install && npm uninstall electron && export npm_config_platform=win32 && npm install electron && unset npm_config_platform"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "Jesus Antonio Estrada Jiménez",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^26.1.0"
+  }
+}
