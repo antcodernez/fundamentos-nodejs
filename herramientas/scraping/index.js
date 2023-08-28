@@ -15,7 +15,7 @@ const puppeter = require("puppeteer");
                 const h1 = document.getElementsByTagNameNS("h1");
                 return h1.innerHTML
             })
-            console.log(titulo1);
+            console.log(titulo1);   
             console.log("cerramos navegador");
             browser.close();
             console.log("Navegador cerrado");
